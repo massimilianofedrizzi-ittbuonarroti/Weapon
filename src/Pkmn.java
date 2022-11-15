@@ -11,7 +11,7 @@ public class Pkmn {
 
     public void danni(int attackPoints){
         int healthPoints;
-        healthPoints = (attackPoints/defense)/50+2;
+        healthPoints = (attackPoints*100/defense)/5+2;
         puntiSalute = puntiSalute-healthPoints;
     }
 
