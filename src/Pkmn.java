@@ -3,6 +3,8 @@ public class Pkmn {
     private int attack;
     private int defense;
 
+    private Weapon arma;
+
     public Pkmn(int puntiSalute, int attack, int defense){
         this.puntiSalute = puntiSalute;
         this.attack = attack;
