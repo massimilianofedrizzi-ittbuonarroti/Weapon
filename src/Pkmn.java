@@ -5,10 +5,11 @@ public class Pkmn {
 
     private Weapon arma;
 
-    public Pkmn(int puntiSalute, int attack, int defense){
+    public Pkmn(int puntiSalute, int attack, int defense, Weapon arma){
         this.puntiSalute = puntiSalute;
         this.attack = attack;
         this.defense = defense;
+        this.arma = arma;
     }
 
     public void danni(int attackPoints){
@@ -31,5 +32,9 @@ public class Pkmn {
 
     public int getDefense() {
         return defense;
+    }
+
+    public Weapon getArma(){
+        return arma;
     }
 }
