@@ -28,6 +28,9 @@ public class Pkmn {
         }
         return danno;
     }
+    public void cambiaArma(){
+        armed = !armed;
+    }
     public void setPuntiSalute(int puntiSalute) {
         this.puntiSalute = puntiSalute;
     }
